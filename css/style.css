@@ -1,0 +1,38 @@
+#icon {
+    width: 85px;
+    height: 35px;
+    filter: contrast(4);
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-trans {
+    background: transparent !important;
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#showcase {
+    background-image: url(../img/bg-intro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 760px;
+    filter: brightness(.8)
+}
+
+#header {
+    background-color: rgba(222, 184, 135, .5);
+    font-weight: bold;
+    color: black !important;
+}
+
+#header .sub_heading {
+    font-weight: 700;
+    font-size: 25px;
+}
