@@ -50,10 +50,6 @@
     font-weight: 500;
 }
 
-#footer-padding {
-    padding-top: 145px;
-}
-
 #footer h2 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -69,5 +65,17 @@
 @media(max-width: 768px) {
     #explore h2 {
         font-size: 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    #footer-padding {
+        padding-top: 15%;
+    }
+}
+
+@media(min-width: 768px) {
+    #footer-padding {
+        padding-top: 10%;
     }
 }
